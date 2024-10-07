@@ -5,6 +5,8 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 const letter = prompt("Inserisci una lettera").toUpperCase();
 
 console.log(names);
+console.log(letter);
+
 
 // Dichiara la funzione qui.
 /**
