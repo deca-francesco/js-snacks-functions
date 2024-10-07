@@ -4,10 +4,21 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
-
+function Hello(name) {
+    console.log(`Ciao ${name}!`);
+    alert(`Ciao ${name}!`);
+}
 
 // Invoca la funzione qui e stampa il risultato in console
-
+Hello(name);
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
+
+// Arrow function
+
+const helloArrow = (name) => {
+    console.log(`Ciao ${name}!`);
+    alert(`Ciao ${name}!`);
+}
+helloArrow(name);
